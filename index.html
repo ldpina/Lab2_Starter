@@ -29,18 +29,18 @@
         <h2>Table of Contents</h2>
         <hr>
         <ul>
-            <li>Go over Ice Breaker</li>
-            <li>Go over attendance
+            <li>Go over Brain storming Diagrams</li>
+            <li>Take attendance</li>
                 <ul>
                     <li>Call everyone by names</li>
                 </ul>
             </li>
-            <li>Go over group subgroups
+            <li>Announce Groups</li>
                 <ol>
                     <li>Pina, Hernandez, Perez</li>
                     <li>Garcia, Sanchez, Gonzalez</li>
                 </ol>
-            </li>
+            <li>Go over types of forms</li>
         </ul>
     </section>
 
@@ -60,20 +60,62 @@
         <div>
             <em>Here are some concerns that were brought up during the meeting</em>
         </div>
-                <audio controls>
-                    <source src="AudioChimps.mp3" type="audio/mpeg">
-                    Your browser does not support the audio tag.
-                </audio>
-                <details>
-                    <summary><b>If you cannot listen to the audio here is the translation:</b></summary>
-                        <br>
-                        <i>Luis Garcia: I am having trouble coming up with ideas!</i>
-                        <br>
-                        <a>Luis Pina: That is a O-K! We still have time before the deadline </a>
-                        <br>
-                        <i>Luis Gonzalez: Wait, can't we just ask a TA for help?</i>
-                        <p>Luis Hernandez: We will ask them Friday at 6pm for help!</p>
-                </details>
+        <audio controls>
+            <source src="AudioChimps.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <details>
+            <summary><b>If you cannot listen to the audio here is the translation:</b></summary>
+                <br>
+                <i>Luis Garcia: I am having trouble coming up with ideas!</i>
+                <br>
+                <a>Luis Pina: That is a O-K! We still have time before the deadline </a>
+                <br>
+                <i>Luis Gonzalez: Wait, can't we just ask a TA for help?</i>
+                <p>Luis Hernandez: We will ask them Friday at 6pm for help!</p>
+        </details>
+        <h3>Types of Forms</h3>
+        <br>
+        <p>There are 8 types of forms:<br><em>form, fieldset, input, textarea, datalist, select, option, and button!</em></p>
+        <br>
+        <p>Here are examples of them in action!(Specifically towards how the meeting went)</p>
+        <form>
+            <fieldset>
+              <label>Anything that interested you in this meeting?</label><br>
+              <textarea rows="5" cols="40" placeholder="Type Here..."></textarea><br><br>
+              
+              <label for="rating">How you rate your coding skills?</label><br>
+              <input type="radio" id="rating1" name="rating" value="1">
+              <label for="rating1">Next Question</label>
+              <input type="radio" id="rating2" name="rating" value="2">
+              <label for="rating2">Mid</label>
+              <input type="radio" id="rating3" name="rating" value="3">
+              <label for="rating5">Godly</label><br><br>
+              
+              <label>Suggestions for topics for next meeting:</label><br>
+              <input type="text" list="improvementsList">
+              <datalist id="improvementsList">
+                <option value="Code we will be using for the project">
+                <option value="Team Bonding">
+              </datalist><br><br>
+              
+              <label>Next meeting date:</label><br>
+              <input type="date"><br><br>
+              
+              <label>Did you attend the meeting?:</label>
+              <input type="checkbox"><br><br>
+              
+              <label>Choose your perfered time to meet up:</label><br>
+              <select>
+                <option value="English">Fri 6pm</option>
+                <option value="Spanish">Fri 8pm</option>
+              </select><br><br>
+              
+              <button>Submit</button>
+            </fieldset>
+          </form>
+        
+
     </section>
 
     <footer>
